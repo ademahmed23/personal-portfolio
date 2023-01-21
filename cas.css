@@ -394,10 +394,10 @@ color: #fff;
     color: #ff004f;
 }
 nav .fas{
-    display: none;
+    display: block;
 }
 nav .fa-solid{
-    display:none;
+    display:block;
 }
 @media only screen and (max-width: 720px){
     #header{
