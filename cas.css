@@ -33,7 +33,7 @@ nav{
     color: #fff;
     font-size: 25px;
     font: weight 1000px;;
-    display: block;
+    display: inline-block;
     width: 70px;
     height: 60px;
     border-radius: 10px;
