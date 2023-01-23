@@ -36,8 +36,7 @@ nav{
     display: inline-block;
     width: 70px;
     height: 60px;
-    border-radius: 10px;
-    margin-top:100px;
+    margin-top:15px;
 
         top: 50%; 
     right:20%;
@@ -61,8 +60,6 @@ nav{
     1px 22px 10px rgba(16,16,16,0.2),
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
-    animation-name: p;
-    animation: rotate 2s ease-in-out alternate infinite;
 }
 nav ul li{
     display: inline-block;
