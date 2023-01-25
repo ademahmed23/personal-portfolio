@@ -29,6 +29,28 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+#sidemenu li{
+    font-size: 15px;
+    height: 45px;
+    width: 90px;
+    border:none;
+    border-radius: 8px;
+    padding: 11px 12px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+nav ul li:hover a{
+    text-decoration: none;
+    color: #fff;
+  }
+  nav ul li:hover{
+    height: 45px;
+    padding-top: 30px;
+   background: #0a0004;
+    text-decoration: none;
+    transform: skew(15deg);
+  }
 .logo{
     color: #fff;
     font-size: 25px;
@@ -122,6 +144,8 @@ nav ul li a::after
 }
 nav ul li a:hover::after{
     width: 100%;
+     background: #77046e;
+
 }
 .header-text{
     margin-top: 20%;
